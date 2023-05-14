@@ -1,0 +1,16 @@
+#titulo-index {
+    color: #40504b;
+    font-family: "Raleway:wght@400", sans-serif;
+    font-size: 5rem;
+}
+
+#texto-index {
+    color: #ecad10e8;
+    font-family: "Wix+Madefor+Text", sans-serif;
+    font-size: 5.65rem; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text&display=swap');
+

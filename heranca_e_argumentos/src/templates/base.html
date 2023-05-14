@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block head %}
+
+    {% endblock %}    
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <!-- Logo e menu -->
+    <nav class="navbar">
+      <div>
+          <img class="logo" src="../static/img/logo_port.png">
+      </div>
+      <ul class="nav-list">
+          <li class="list-item">
+              <a href="/">Página inicial</a>
+          </li>
+          <li class="list-item">
+              <a href="sobre.html">Sobre</a>
+          </li>
+          <li class="list-item">
+              <a href="projetos.html">Projetos</a>
+          </li>
+          <li class="list-item">
+              <a href="contato.html">Contato</a>
+          </li>
+      </ul>
+  </nav>
+      
+  <main>
+        <!-- Conteúdo da página aqui -->
+
+{% block content %}
+
+{% endblock %}
+  </main>
+    <!-- Rodapé *** COM FUNDO AZULZINHO -->
+    <div>
+        <footer>© Marcus Betti 2023</footer>
+        <br><br>
+    </div>
+</body>
+</html>

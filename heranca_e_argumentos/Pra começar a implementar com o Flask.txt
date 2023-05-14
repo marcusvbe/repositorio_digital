@@ -1,0 +1,15 @@
+Para começar a implementar com Flask:
+
+py -3 -m venv venv
+
+python –m venv venv
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+flask run --debug
+
+
+
+

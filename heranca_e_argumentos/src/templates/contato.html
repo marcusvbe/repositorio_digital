@@ -1,0 +1,37 @@
+{% extends "base.html"  %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="../static/contato.css">
+<title>Contato - Portfólio de Marcus Betti</title>
+{% endblock %}
+
+{% block content %}
+    <br>
+    <div>
+        <h2>Contato</h2>
+        <h3>Mande uma mensagem:</h3>
+        <!-- <hr> -->
+        <br>
+    </div>
+
+    <div>
+    <!-- Formulário -->
+        <form>
+            Nome completo<br>
+            <input type="text" name="e-mail">
+            Seu e-mail<br>
+            <input type="text" name="assunto"><br>
+            Sua mensagem<br>
+            <textarea></textarea><br>
+            <input type="submit" value="enviar">
+            <!-- BOTÃO ENVIAR COM FUNDO ESCURO -->
+        </form>
+    </div>
+
+    <div>
+        linkedin.com/in/marcus-betti-715b6614a/
+        marcusbetti@gmail.com
+        github.com/marcusvbe
+    </div>
+
+{% endblock %} 
