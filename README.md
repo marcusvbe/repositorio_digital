@@ -29,8 +29,7 @@ venv\Scripts\activate
 
     Instale as dependências do projeto:
 
-cd..
-pip install -r requirements.txt (talvez eu possa incluir a pasta antes de requirements, para não precisar dar "cd..")
+pip install -r requirements.txt
 
     Execute o Flask:
 
