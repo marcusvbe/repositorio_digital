@@ -11,7 +11,7 @@ Este sistema utiliza as seguintes tecnologias: HTML e CSS para a criação da es
 
 Instruções para fazer o build:
 
-Para executar o site do portfólio, seguir as instruções abaixo:
+Para executar o sistema do portfólio, seguir as instruções abaixo:
 
 Clonar este repositório em sua máquina. 
 
@@ -24,11 +24,11 @@ Criar e ativar um ambiente virtual (em repositorio_digital/):
 	venv\Scripts\activate
 
 
-Instalar as dependências do projeto (em src/):
+Instalar as dependências do projeto:
 
 	pip install -r requirements.txt
 
 
-Executar a aplicação:
+Executar a aplicação (em src/):
 
 	flask run
