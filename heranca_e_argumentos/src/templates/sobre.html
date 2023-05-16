@@ -6,19 +6,20 @@
     {% extends "base.html"  %}
 
     {% block head %}
-    <link rel="stylesheet" type="text/css" href="../static/sobre.css">
+    <link rel="stylesheet" type="text/css" href="/static/css/sobre.css">
     <title>Sobre - Portfólio de Marcus Betti</title>
     {% endblock %}
 
     {% block content %} 
     
         <div>
-            <br>    
-            <h2>Sobre mim
+            <br><br>
+            <h2 id="titulo_sobre">Sobre mim
             </h2>
+            <hr>
         </div>
-        <div>
-            <div><p id="textosobremim">
+        <div class="flex-container" >
+            <p>
                 Texto falando que sou formado em Ciências Sociais pela Universidade de 
 São Paulo e tradutor de Inglês há 8 anos. Talvez algo sobre como meu 
 interesse pela programação começou, pelo trabalho de tradução e ter que 
@@ -30,14 +31,11 @@ que estou cursando Desenvolvimento de Software Mutiplataforma na Fatec
 São José dos Campos. Sobre meus interesses em programação, o que 
 pretendo fazer? E que estou cursando Desenvolvimento de Software 
 Mutiplataforma na Fatec São José dos Campos.
-            </p></div>
-            <div><img src="../static/img/foto profissional.jpg" id="foto"> </div>
-    
+            </p>
+            <img class="flex-img" alt="Foto" srcset="../static/img/foto_profissional_peq.jpg 300w, 
+            ../static/img/foto_profissional.jpg 900w"
+            sizes="(max-width: 900px) 150px, 600px"> 
         </div>
-        
-        <hr>
-        
         <br><br>
-        </section>
     
     {% endblock %} 

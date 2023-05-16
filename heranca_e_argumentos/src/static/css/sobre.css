@@ -1,0 +1,41 @@
+#foto {
+    width: 20%;
+}
+
+hr {
+    color: #ecad10e8;
+    background-color: #ecad10e8;
+    height: 5px;
+
+}
+
+/* deixar textosobremim e foto (ids) um do lado do outro */
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+/* p {
+   margin-top: 0; */
+/* } */
+
+.flex-img {
+    align-self: flex-end;
+    margin-left: 2.5rem;
+    flex-grow: 2;
+    max-width: 23%;
+}
+
+h2 {
+    color: #0c5c42;
+    font-size: 3.5rem;
+}
+
+p {
+    color: #093426;
+    font-size: 1.6rem;
+}
+

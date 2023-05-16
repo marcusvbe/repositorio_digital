@@ -1,10 +1,3 @@
-/* definir margens laterais pra página toda.  ?? é uma boa prática ?? */
-
-/* mudar a fonte do Seja-bem e do Portfólio de Marcus Betti
-mudar a cor de Portfólio -> deixar mais claro */
-
-/* refazer o menu para deixar igual ao wireframe */
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -15,8 +8,8 @@ mudar a cor de Portfólio -> deixar mais claro */
 
 
 .navbar {
-  background-color: #093426;
-  color: #093426;
+  background-color: #403F45;
+  /* color: #093426; */
   display: flex;
   justify-content: space-around;
   /* height: 50px; outro jeito de aumentar altura do background do menu */
@@ -49,11 +42,11 @@ mudar a cor de Portfólio -> deixar mais claro */
 
 .navbar a:hover {
   text-decoration: none;
-  color: #6b4f06a0;
+  color: #FDEC00;
 }
 
 body {
-    background-color: #c6f4e6;
+    background-color: #f8f8f8;
 }
 
 main {
@@ -64,26 +57,11 @@ main {
 footer {
     text-align: center;
     font-weight: bold;
-    background-color: #40504b; 
-    color: #448D76; 
+    background-color: #403F45; 
+    color: #ecad10e8; 
     padding: 10px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    /* height: 50px; */
 }
 
-
-/* mudar a fonte do menu -- colocar uma mais descolada */
-
-/* 
-#F7EDD4
-#FCBA12
-#ecad10e8
-#448D76
-#0d6346
-#AE0D7A
-#093426
- 
-#40504b
-*/
