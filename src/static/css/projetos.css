@@ -1,0 +1,97 @@
+h2 {
+    color: #0c5c42;
+    font-size: 3.5rem;
+}
+
+p {
+    color: #093426;
+    font-size: 1.8rem;
+}
+
+/* Estilo padrão para o carrossel de imagens */
+.slick-slider {
+    /* position: relative; */
+    /* display: block; */
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura do carrossel para 100% da altura da janela */
+}
+  
+  /* .slick-slider img {
+    max-width: 800px;
+    max-height: 500px;
+  } */
+
+  /* Estilo para cada slide do carrossel de imagens */
+  .slick-slide {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo para a imagem de cada slide do carrossel de imagens */
+  .slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Estilo para o texto de cada slide do carrossel de imagens */
+  .slide-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+  }
+  
+  .slide-text h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .slide-text p {
+    margin: 10px 0 0;
+    font-size: 16px;
+  }
+  
+  /* Estilo para o link de cada slide do carrossel de imagens */
+  .slick-slide a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Estilo padrão para as setas do carrossel de imagens */
+.slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 0;
+    outline: none;
+  }
+  
+  /* Estilo para a seta "Anterior" */
+  .slick-prev {
+    left: 10px;
+  }
+  
+  /* Estilo para a seta "Próximo" */
+  .slick-next {
+    right: 10px;
+  }
+  

@@ -1,40 +1,34 @@
 # repositorio_digital
 
-## Autor: Marcus Vinícius Oliveira Betti  -- DSM 1 -- 1º semestre de 2023 
+# portfólio
 
-Este repositório contém este arquivo README.md e o arquivo Portfólio Desktop e Mobile -- PDF único.pdf, com as imagens do wireframe do portfólio nas versões desktop e mobile.
+## Autor: Marcus Vinícius Oliveira Betti  – DSM 1 – 1º semestre de 2023 
+
+Este repositório contém os arquivos do sistema do portfólio criado para a disciplina de Design Digital, ministrada pelo professor Fabricio Galende M. de Carvalho no primeiro semestre do curso de Desenvolvimento de Software Multiplataforma da FATEC Professor Jessen Vidal - São José dos Campos.
+
+Este sistema utiliza as seguintes tecnologias: HTML e CSS para a criação da estrutura e estilização das páginas do site. Javascript para  a criação de alguns elementos do site. Python e Flask para o servidor. Git e Github para controle de versão e repositório on-line. 
 
 
 Instruções para fazer o build:
 
-Para executar o site do portfólio, siga as instruções abaixo:
+Para executar o site do portfólio, seguir as instruções abaixo:
 
-    Instale o Python em seu computador. Recomendamos a versão 3.8 ou superior.
-        Para instalar o Python no Windows, acesse o site oficial e baixe o instalador adequado à sua versão do Windows.
+Clonar este repositório em sua máquina. 
 
-    Instale o GIT em seu computador. No site oficial do Git (http://git-scm.com/), clique em “Download for Windows” e selecione a versão adequada para seu sistema (32 ou 64 bits). Depois de baixado, clique duas vezes no arquivo para iniciar o assistente de instalação. Basta seguir as instruções na tela, clicando em Next. Ao término, clique em Finish para concluir com êxito a instalação.
+	git clone https://github.com/marcusvbe/repositorio_digital.git
 
-    Clone este repositório em sua máquina. No diretório desejado, abra o CMD (prompt de comando) do Windows (no explorador de arquivos, basta selecionar o caminho da pasta, digitar "cmd" e pressionar Enter) e digite:
 
-git clone https://github.com/marcusvbe/repositorio_digital
+Criar e ativar um ambiente virtual (em repositorio_digital/):
 
-    Entre na pasta do repositório e acesse a pasta "src":
+	python -m venv venv
+	venv\Scripts\activate
 
-cd repositorio_digital\heranca_e_argumentos\src
 
-    Crie e ative um ambiente virtual:
+Instalar as dependências do projeto (em src/):
 
-python -m venv venv
-venv\Scripts\activate
+	pip install -r requirements.txt
 
-    Instale as dependências do projeto:
 
-pip install -r ..\requirements.txt
+Executar a aplicação:
 
-    Execute o Flask:
-
-flask run
-
-    Clique no endereço de IP que será gerado para abrir o site no navegador:
-
-Ctrl+Clique para seguir o link
+	flask run
