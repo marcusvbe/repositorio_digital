@@ -20,9 +20,9 @@
               <img src="/static/img/COVID_proj.png" alt="Imagem Projeto API Covid Longa">
             </a>
               <h2 class="carousel-item-title">{{projeto1}}</h2>
-              <p class="carousel-item-description">Projeto integrado do 1º semestre do curso de Desenvolvimento de Software Multiplataforma da FATEC "Professor Jessen Vidal" - São José dos Campos</p>
+              <p class="carousel-item-description">Projeto integrado do 1º semestre do curso de Desenvolvimento de Software Multiplataforma da FATEC "Professor Jessen Vidal" - São José dos Campos. Ele coleta e analisa dados sobre a Covid Longa a partir do sistema Datasus (Tabnet), para avaliar o impacto do "pós-pandemia" no Sistema Único de Saúde em algumas cidades do Vale do Paraíba: São José dos Campos, Jacareí e Taubaté.</p>
               </div>
-              </div>
+        </div>
               
         <div class="carousel-item">
           <div class="carousel-item-content">
@@ -30,9 +30,9 @@
               <img src="/static/img/desafio_proj.png" alt="Imagem Desafio Unes">
               </a>
               <h2 class="carousel-item-title">{{projeto2}}</h2>
-              <p class="carousel-item-description">Descrição 2</p>
+              <p class="carousel-item-description">Desenvolvido para a disciplina de Desenvolvimento Web, ministrada pelo professor Jean Costa no curso de DSM 1, este site simples vai ganhando novos recursos ao longo do semestre: Flask, MySQL, AWS, Docker Compose.</p>
               </div>
-              </div>
+        </div>
               
         <div class="carousel-item">
           <div class="carousel-item-content">
@@ -40,52 +40,52 @@
               <img src="/static/img/portfolio_proj.png" alt="Imagem Portfólio - Design Digital">
               </a>
               <h2 class="carousel-item-title">{{projeto3}}</h2>
-              <p class="carousel-item-description">Descrição 3 (repositório do portfólio temporariamente com acesso restrito).</p>
-              </div>
-              </div>
-              </div>
+              <p class="carousel-item-description">Desenvolvido ao longo do semestre em várias entregas parciais, o portfólio implementa o conteúdo coberto pela disciplina, como as tecnologias utilizadas, os princípios do design digital, a teoria das cores, a arquitetura de informação (repositório do portfólio temporariamente com acesso restrito).</p>
+          </div>
+        </div>
+      </div>
               <div class="carousel-control left" onclick="changeSlide(-1)"><</div>
               <div class="carousel-control right" onclick="changeSlide(1)">></div>
               <ul class="carousel-indicators"></ul>
               </div>
     </div>
   
-                <script>
-                  var carousel = document.querySelector('.carousel');
-                  var carouselInner = carousel.querySelector('.carousel-inner');
-                  var carouselItems = carouselInner.querySelectorAll('.carousel-item');
-                  var currentIndex = 0;
-                  var timer = setInterval(function() {
-                    changeSlide(1);
-                  }, 5000);
-              
-                  function changeSlide(n) {
-                    clearInterval(timer);
-                    currentIndex += n;
-                    if (currentIndex < 0) {
-                      currentIndex = carouselItems.length - 1;
-                    } else if (currentIndex >= carouselItems.length) {
-                      currentIndex = 0;
-                    }
-                    carouselInner.style.left = -currentIndex * 100 + '%';
-                    updateIndicators();
-                    timer = setInterval(function() {
-                      changeSlide(1);
-                    }, 5000);
-                  }
-              
-                  function updateIndicators() {
-                    var indicators = carousel.querySelector('.carousel-indicators');
-                    var indicatorHTML = '';
-                    for (var i = 0; i < carouselItems.length; i++) {
-                      if (i === currentIndex) {
-                        indicatorHTML += '<li class="carousel-indicator active"></li>';
-                      } else {
-                        indicatorHTML += '<li class="carousel-indicator"></li>';
-                      }
-                    }
-                    indicators.innerHTML = indicatorHTML;
-                  }
-                </script>
+    <script>
+      var carousel = document.querySelector('.carousel');
+      var carouselInner = carousel.querySelector('.carousel-inner');
+      var carouselItems = carouselInner.querySelectorAll('.carousel-item');
+      var currentIndex = 0;
+      var timer = setInterval(function() {
+        changeSlide(1);
+      }, 10000);
+  
+      function changeSlide(n) {
+        clearInterval(timer);
+        currentIndex += n;
+        if (currentIndex < 0) {
+          currentIndex = carouselItems.length - 1;
+        } else if (currentIndex >= carouselItems.length) {
+          currentIndex = 0;
+        }
+        carouselInner.style.left = -currentIndex * 100 + '%';
+        updateIndicators();
+        timer = setInterval(function() {
+          changeSlide(1);
+        }, 10000);
+      }
+  
+      function updateIndicators() {
+        var indicators = carousel.querySelector('.carousel-indicators');
+        var indicatorHTML = '';
+        for (var i = 0; i < carouselItems.length; i++) {
+          if (i === currentIndex) {
+            indicatorHTML += '<li class="carousel-indicator active"></li>';
+          } else {
+            indicatorHTML += '<li class="carousel-indicator"></li>';
+          }
+        }
+        indicators.innerHTML = indicatorHTML;
+      }
+    </script>
 
 {% endblock %} 
