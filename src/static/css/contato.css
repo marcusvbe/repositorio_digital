@@ -1,11 +1,18 @@
 h2 {
     color: #0c5c42;
-    font-size: 3rem;
+    font-size: 3.4rem;
 }
 
 h3 {
     color: #093426;
     font-size: 2.3rem;
+}
+
+hr {
+  color: #ecad10e8;
+  background-color: #ecad10e8;
+  height: 5px;
+
 }
 
 .flex-container {
@@ -19,8 +26,6 @@ h3 {
     font-family: Arial, sans-serif;
     flex-grow: 2;
     margin-right: 10rem;
-    /* flex-basis: 50%; para campo do lado esquerdo */
-    /* align-self: flex-start; para manter os campos alinhados à esquerda */
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&family=Wix+Madefor+Text&display=swap');
@@ -34,13 +39,11 @@ aside {
     font-family: Ubuntu;
     font-size: 1.2rem;
     font-weight: 500;
-    /* align-self: flex-end; */
 }
 
 a {
     color:#0c5c42;
     text-decoration: none;
-    /* background-color: #403F45; */
 }
   
 a:hover {

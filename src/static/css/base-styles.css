@@ -13,7 +13,7 @@
   display: flex;
   justify-content: space-around;
   /* height: 50px; outro jeito de aumentar altura do background do menu */
-  align-items: center; /* todos elem alinhados na vertical */
+  align-items: center; /* todos alinhados na vertical */
   font-family: "IBM+Plex+Sans", sans-serif;
   font-size: 1.5rem;
 }
