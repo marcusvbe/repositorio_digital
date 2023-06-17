@@ -126,6 +126,7 @@ hr {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 .carousel-indicator {
@@ -159,25 +160,7 @@ hr {
   .carousel-control.right {
     right: 0.4rem; /* Moved 1rem farther from the right edge and adjusted for smaller size */
   } 
+  .carousel-indicators {
+    margin-bottom: 0.2rem;
+  }
 } 
-/* 
-.carousel-control {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 1;
-  width: 2.5rem;
-  height: 2.5rem;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  text-align: center;
-  line-height: 2.5rem;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-.carousel-control.left {
-  left: 0.625rem;
-}
-.carousel-control.right {
-  right: 0.625rem;
-} */
