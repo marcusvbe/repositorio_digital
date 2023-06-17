@@ -1,5 +1,5 @@
 # Portfólio
-Este repositório contém os arquivos do sistema do portfólio criado para a disciplina de Design Digital, ministrada pelo professor Fabricio Galende M. de Carvalho no primeiro semestre do curso de Desenvolvimento de Software Multiplataforma da FATEC Professor Jessen Vidal - São José dos Campos.
+Este repositório contém os arquivos do sistema do portfólio criado para a disciplina de Design Digital, ministrada pelo professor Fabricio Galende M. de Carvalho no primeiro semestre do curso de Desenvolvimento de Software Multiplataforma da FATEC Professor Jessen Vidal – São José dos Campos – SP.
 
 ## Autor: Marcus Betti – DSM 1 – 1º semestre de 2023
 
