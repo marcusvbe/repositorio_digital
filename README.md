@@ -48,11 +48,6 @@ Certifique-se de escolher a opção de adicionar o Python à variável de ambien
 ```python
 	flask run
 ```
-ou
-
-```python
-	flask --app app --run
-```
 <br> 
 
 ![Linux](https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black)
@@ -77,9 +72,4 @@ ou
 
 ```python
 	$ flask run
-```
-ou
-
-```python
-	$ flask --app app --debug run
 ```
