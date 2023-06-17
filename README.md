@@ -1,11 +1,11 @@
 # Portfólio
 Este repositório contém os arquivos do sistema do portfólio criado para a disciplina de Design Digital, ministrada pelo professor Fabricio Galende M. de Carvalho no primeiro semestre do curso de Desenvolvimento de Software Multiplataforma da FATEC Professor Jessen Vidal – São José dos Campos – SP.
 
-## Autor: Marcus Betti – DSM 1 – 1º semestre de 2023
+## Marcus Betti – DSM 1 – 1º semestre de 2023
 
 <h2>https://marcusbetti.vercel.app</h2>
 
-##  👩‍💻 Tecnologias
+##  Tecnologias
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
@@ -13,7 +13,7 @@ Este repositório contém os arquivos do sistema do portfólio criado para a dis
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-## 🔨 Como executar o projeto
+## Como executar o projeto
 <h3>Instalar o Python:</h3>
 
 > Python 3.11 - https://www.python.org/downloads/ <br>
