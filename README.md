@@ -25,8 +25,6 @@ Certifique-se de escolher a opção de adicionar o Python à variável de ambien
 > git clone https://github.com/marcusvbe/repositorio_digital.git 
 <br>
 
-	git clone https://github.com/marcusvbe/repositorio_digital.git
-
 ![Windows](https://img.shields.io/badge/Windows-017AD7?style=for-the-badge&logo=windows&logoColor=white)
 
 <h3>Abrir o CMD na pasta repositorio_digital/ e criar ambiente virtual:</h3>
