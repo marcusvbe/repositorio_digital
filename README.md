@@ -18,7 +18,7 @@ Este repositório contém os arquivos do sistema do portfólio criado para a dis
 
 > Python 3.11 - https://www.python.org/downloads/ <br>
 
-Certifique-se de escolher a opção de adicionar o Python à variável de ambiente PATH do Windows durante a instalção, para poder executá-lo pelo terminal do Windows.
+Certifique-se de escolher a opção de adicionar o Python à variável de ambiente PATH do Windows durante a instalação, para poder executá-lo pelo terminal do Windows.
 
 <h3>Clonar este repositório</h3>
 
