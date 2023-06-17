@@ -2,13 +2,45 @@
     color: #093426;
     font-family: "Raleway:wght@400", sans-serif;
     font-size: 5rem;
+    margin-top: 7.5rem;
 }
 
-#texto-index {
+#subtitulo-index {
     color: #0c5c42;
     font-family: "Wix+Madefor+Text", sans-serif;
     font-size: 5.65rem; 
 }
+
+.texto-index {
+    color: #093426;
+    font-family: "Wix+Madefor+Text", sans-serif;
+    font-size: 2rem;
+}
+
+
+
+@media (max-width: 800px) {
+    #titulo-index {
+         margin-top: 1.4rem;
+         font-size: 2.5rem;
+         color: #093426;
+    }
+    #subtitulo-index {
+        margin-top: 5.8rem;
+        font-size: 3.3rem;
+        line-height: 0.8;
+        margin-bottom: 4rem; 
+        color: #0c5c42;
+    }
+    .texto-index {
+        font-size: 1.25rem;
+        line-height: 0.9;
+        margin-top: .2rem;
+        margin-bottom: 1rem;
+        color: #093426;
+    }
+}
+
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
 

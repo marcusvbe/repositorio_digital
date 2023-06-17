@@ -18,21 +18,13 @@
   font-size: 1.5rem;
 }
 
-.logo {
-  height: 5rem;
-  width: 5rem;
-  border-radius: 50%;
-
-}
-
 .nav-list {
   list-style-type: none; /* tira os bullet points */
-
 }
 
 .nav-list .list-item {
   display: inline-block; /* deixa lado a lado*/
-  padding: 40px 10px; /* top -- left/right */
+  padding: 2.5rem 0.6rem; /*40px 10px;  top -- left/right converter para rem */
 }
 
 .navbar a {
@@ -45,6 +37,32 @@
   color: #FDEC00;
 }
 
+.logo {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+
+}
+
+.menu {
+  display: none;
+}
+
+.menu-line {
+  width: 1.6rem;
+  height: 0.22rem;
+  background-color: #ecad10e8;
+  margin-bottom: 0.3rem;
+}
+
+/* .menu-line:hover {
+  background-color: #FDEC00;
+} */
+
+.menu:hover div {
+  background-color: yellow;
+} 
+
 body {
     background-color: #f8f8f8;
 }
@@ -53,15 +71,56 @@ main {
     margin: 0 12%;
 }
 
-
 footer {
     text-align: center;
     font-weight: bold;
     background-color: #403F45; 
     color: #ecad10e8; 
-    padding: 10px;
+    padding: 0.6rem;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
+
+@media all and (max-width: 800px) {
+  .menu:hover ~ .nav-list .list-item a:hover {
+    color: #FDEC00 !important;
+  }
+.nav-list {
+  list-style-type: none;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.425rem;
+  display: none;
+}
+.nav-list .list-item {
+  display: block;
+  border-top: 0.06rem solid white;
+  padding: 1rem;
+}
+.logo { 
+  /* .primary-icon no tutorial */
+  margin-left: 0.625rem;
+  margin-top: 0.625rem;
+}
+.active {
+  display: block;
+}
+main {
+  margin: 0 5%; 
+}
+.navbar {
+  flex-direction: column;
+  position: relative;
+}
+.navbar .divlogo { /* .navbar .container-icon no tutorial */
+  width: 100%;
+}
+.menu {
+  display: block;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+}

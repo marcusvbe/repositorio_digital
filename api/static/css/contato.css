@@ -15,29 +15,16 @@ hr {
 
 }
 
-.flex-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 1rem;   
-}
-
-.formulario {
-    font-family: Arial, sans-serif;
-    flex-grow: 2;
-    margin-right: 10rem;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital@1&family=Wix+Madefor+Text&display=swap');
 
-aside {
+/* .links {
     margin-top: auto;
-}
+} */
 
 .links {
     flex-grow: 1;
     font-family: Ubuntu;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     font-weight: 500;
 }
 
@@ -49,19 +36,19 @@ a {
 a:hover {
     color:#E6CE1D;
 }
-fieldset {
+/* fieldset {
     border: none;
     margin: 0;
     padding: 0;
   }
-  
-label {
+   */
+/* label {
     display: block;
     font-size: 1rem;
     font-weight: bold;
     margin-bottom: 5px;
-  }
-  
+  } */
+/*   
 input[type="text"],
 input[type="email"],
 input[type="textarea"] {
@@ -75,8 +62,8 @@ input[type="textarea"] {
     padding: 10px;
     width: 100%;
 
-  }
-  
+  } */
+/*   
   button[type="submit"] {
     background-color: #DCA314;
     border: none;
@@ -88,11 +75,11 @@ input[type="textarea"] {
     text-transform: uppercase;
     width: 100%;
   }
-  
-  button[type="submit"]:hover {
+   */
+  /* button[type="submit"]:hover {
     background-color: #FDEC00;
   }
- 
+  */
   #icone_linkedin {
     width: 1rem;
     height: 1rem;
