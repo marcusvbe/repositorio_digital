@@ -14,11 +14,11 @@ Este repositório contém os arquivos do sistema do portfólio criado para a dis
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## 🔨 Como executar o projeto
-<h3>Instalar Python:</h3>
+<h3>Instalar o Python:</h3>
 
 > Python 3.11 - https://www.python.org/downloads/ <br>
 
-Certifique-se de escolher a opção de adicionar Python à variável de ambiente PATH do Windows durante a instalção, para poder executá-lo pelo terminal do Windows.
+Certifique-se de escolher a opção de adicionar o Python à variável de ambiente PATH do Windows durante a instalção, para poder executá-lo pelo terminal do Windows.
 
 <h3>Clonar este repositório</h3>
 
