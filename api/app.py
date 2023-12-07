@@ -12,10 +12,11 @@ def sobre():
 
 @app.route("/projetos.html")
 def projetos():
-    proj1 = "Dados da Covid – Projeto Integrado (API)"
+    proj1 = "Dados da Covid – Projeto Integrado (API) 01/2023"
     proj2 = "Desafio UNES – Desenvolvimento Web"
     proj3 = "Portfólio – Design Digital"
-    return render_template("projetos.html", projeto1=proj1, projeto2=proj2, projeto3=proj3)
+    proj4 = "Sistema de Gestão de Chamados (API) 02/2023"
+    return render_template("projetos.html", projeto1=proj1, projeto2=proj2, projeto3=proj3, projeto4=proj4)
 
 @app.route("/contato.html")
 def contato():
